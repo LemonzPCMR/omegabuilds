@@ -1,0 +1,21 @@
+<builds>
+
+<build>
+<name>Lemonz Fuse</name>
+<version>0.1</version>
+<url>https://diggz1.me/Builds/Diggz_Xenon_v1_213_830pm.zip</url>
+<icon>https://diggz1.me/Images/diggzxenon.png</icon>
+<fanart>https://diggz1.me/Images/diggzxenon.png</fanart>
+<description>Lemonz Fuse. Updated 0/0/26</description>
+</build>
+
+<build>
+<name>Lemonz Zephyr</name>
+<version>0.1</version>
+<url>https://diggz1.me/Builds/MX.Build.v1.6.zip</url>
+<icon>https://diggz1.me/Images/MX.Build.jpg</icon>
+<fanart>https://diggz1.me/Images/MX.Build.jpg</fanart>
+<description>Lemonz Zephyr. Updated 0/0/26</description>
+</build>
+
+</builds>
