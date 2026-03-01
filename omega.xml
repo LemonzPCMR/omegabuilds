@@ -3,7 +3,7 @@
     <build>
         <name>Lemonz Fuse</name>
         <version>0.1</version>
-        <url>https://lemonzpcmr.github.io/omegabuilds/builds/Lemonz_Fuse_v0.1.zip</url>
+        <url>https://github.com/LemonzPCMR/omegabuilds/raw/master/builds/Lemonz_Fuse_v0.1.zip</url>
         <icon>https://lemonzpcmr.github.io/omegabuilds/resources/icon01.png</icon>
         <fanart>https://lemonzpcmr.github.io/omegabuilds/resources/img01.png</fanart>
         <description>Lemonz Fuse. Updated 0/0/26</description>
@@ -12,7 +12,7 @@
     <build>
         <name>Lemonz Zephyr</name>
         <version>0.1</version>
-        <url>https://lemonzpcmr.github.io/omegabuilds/builds/Lemonz_Zephyr_v0.1.zip</url>
+        <url>https://github.com/LemonzPCMR/omegabuilds/raw/master/builds/Lemonz_Zephyr_v0.1.zip</url>
         <icon>https://lemonzpcmr.github.io/omegabuilds/resources/icon02.png</icon>
         <fanart>https://lemonzpcmr.github.io/omegabuilds/resources/img02.png</fanart>
         <description>Lemonz Zephyr. Updated 0/0/26</description>
