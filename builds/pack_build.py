@@ -42,7 +42,12 @@ def collect_userdata(ref: Path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("ref", type=Path, help="root of reference build")
-    parser.add_argument("out", type=Path, help="output zip path")
+    parser.add_argument(
+        "out", 
+        type=Path, 
+        nargs="?", 
+        help="output zip path (defaults to ./{ref_name}.zip)"
+    )
     parser.add_argument(
         "--include-userdata",
         action="store_true",
@@ -51,7 +56,10 @@ def main():
     args = parser.parse_args()
 
     ref = args.ref.resolve()
-    out = args.out.resolve()
+    if args.out:
+        out = args.out.resolve()
+    else:
+        out = Path.cwd() / f"{ref.name}.zip"
 
     todos = collect_addons(ref)
     if args.include_userdata:
